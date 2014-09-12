@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="yh.tipcalculator.CalculateActivity" >
+
+    <item android:id="@+id/actionStartChronometer"
+        android:title="@string/startTimer"
+        android:icon="@drawable/ic_action_play"
+        android:orderInCategory="1"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/actionPauseChronometer"
+        android:title="@string/stopTimer"
+        android:icon="@drawable/ic_action_pause"
+        android:orderInCategory="2"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/actionResetChronometer"
+        android:title="@string/resetTimer"
+        android:icon="@drawable/ic_action_replay"
+        android:orderInCategory="3"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/actionResultActivity"
+        android:title="@string/nextActivity"
+        android:icon="@drawable/ic_action_forward"
+        android:orderInCategory="4"
+        android:showAsAction="always" />
+
+
+</menu>

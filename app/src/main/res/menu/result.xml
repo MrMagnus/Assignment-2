@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+    <item android:id="@+id/actionCalculateFinalBill"
+        android:title="@string/finalBill"
+        android:icon="@drawable/ic_action_accept"
+        android:orderInCategory="1"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/actionResetAll"
+        android:title="@string/resetAll"
+        android:icon="@drawable/ic_action_refresh"
+        android:orderInCategory="1"
+        android:showAsAction="always" />
+</menu>

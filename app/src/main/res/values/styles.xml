@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarSplitStyle">@style/ActionBar</item>
+        <item name="android:actionButtonStyle">@style/ActionBarItems</item>
+    </style>
+
+    <style name="ActionBar">
+        <item name="android:backgroundSplit">@color/actionbar_color</item>
+        <item name="android:maxHeight">300dip</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:paddingBottom">5dip</item>
+    </style>
+
+    <style name="ActionBarItems">
+        <item name="android:width">5dip</item>
+        <item name="android:height">150dip</item>
+    </style>
+
+</resources>

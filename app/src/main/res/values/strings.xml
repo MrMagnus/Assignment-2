@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TipCalculator</string>
+    <string name="billTv">Bill</string>
+    <string name="tipTv">Tip</string>
+    <string name="tipSb">Change tip</string>
+    <string name="finalBillTv">Final Bill</string>
+    <string name="displayBillTv">0.0</string>
+    <string name="title_activity_result">ResultActivity</string>
+
+    <!--Radio Button Group names and Text View-->
+    <string name="radioGroupTv">Availability</string>
+    <string name="badRadioBtn">Bad</string>
+    <string name="okRadioBtn">Alright</string>
+    <string name="goodRadioBtn">Good</string>
+
+    <!--Check Box Group names and Text View-->
+    <string name="checkBoxTv">Introduction</string>
+    <string name="FriendlyCheckBox">Friendly</string>
+    <string name="specialsCheckBox">Specials</string>
+    <string name="opinionCheckBox">Opinion</string>
+    <string name="problemSpinner">Problem Solving</string>
+    <string name="waitTimeTv">0.00</string>
+
+    <!-- Menu items -->
+    <string name="startTimer">Start</string>
+    <string name="stopTimer">Pause</string>
+    <string name="resetTimer">Reset</string>
+    <string name="nextActivity">Next</string>
+    <string name="finalBill">Final Bill</string>
+    <string name="resetAll">Reset All</string>
+
+
+    <!--Array for the spinner-->
+    <string-array name="problemSolvingArray">
+        <item>Good</item>
+        <item>Alright</item>
+        <item>Bad</item>
+    </string-array>
+
+</resources>
